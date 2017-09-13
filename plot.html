@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Plotter</title>
+</head>
+
+<body>
+	<form target="_blank" method="post" action="check.php">
+		<table>
+			<tr>
+				<td>Enter f(X)</td>
+				<td><input type="text" name="equation"></td>
+			</tr>
+			<tr>
+				<td>Enter width</td>
+				<td><input type="text" name="width"></td>
+			</tr>
+			<tr>
+				<td>Enter height</td>
+				<td><input type="text" name="height"></td>
+			</tr>
+			<tr>
+				<td>Enter scale factor</td>
+				<td><input type="text" name="scale"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Plot"></td>
+			</tr>
+		</table>
+	</form>
+	<hr>
+	<h3>Instructions:</h3>
+	<ul>
+		<li>Use X as a variable; this is case sensitive</li>
+		<li>Use PHP syntax to write the expression</li>
+		<li><a target="_blank" href="http://php.net/manual/en/ref.math.php">Here</a> you find the math functions PHP provides</li>
+	</ul>
+</body>
+</html>
